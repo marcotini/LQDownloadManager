@@ -6,11 +6,11 @@ LQDownloadManager is a download manager in Swift, support background mode.
 
 ## Example
 
-  Clone the repo, Run the example project.
+Clone the repo, Run the example project.
 
 ## Requirements
-- iOS 8.0+ 
-- Xcode 8.0+
+- iOS 12.0+ 
+- Xcode 11.0+
 
 ## Installation
 
@@ -59,5 +59,3 @@ weibo: [青木KON](http://weibo.com/5012041775/profile?topnav=1&wvr=6&is_all=1)
 ## License
 
 LQDownloadManager is available under the MIT license. See the LICENSE file for more info.
-
-

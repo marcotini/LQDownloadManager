@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import LQDownloadManager
+//import LQDownloadManager
 
 class ViewController: UIViewController {
     

@@ -12,12 +12,10 @@
 		1B617E061E1FF1E8000E2101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E041E1FF1E8000E2101 /* Main.storyboard */; };
 		1B617E081E1FF1E8000E2101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E071E1FF1E8000E2101 /* Assets.xcassets */; };
 		1B617E0B1E1FF1E8000E2101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E091E1FF1E8000E2101 /* LaunchScreen.storyboard */; };
-		A92D567BC4794C20FE0F253C /* Pods_LQDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */; };
+		A995BC68256EE73800BBABB2 /* LQDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A995BC67256EE73800BBABB2 /* LQDownloadManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.debug.xcconfig"; path = "Target Support Files/Pods-LQDownload/Pods-LQDownload.debug.xcconfig"; sourceTree = "<group>"; };
-		143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B617DFD1E1FF1E8000E2101 /* LQDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B617E001E1FF1E8000E2101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B617E021E1FF1E8000E2101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +23,7 @@
 		1B617E071E1FF1E8000E2101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B617E0A1E1FF1E8000E2101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B617E0C1E1FF1E8000E2101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.release.xcconfig"; path = "Target Support Files/Pods-LQDownload/Pods-LQDownload.release.xcconfig"; sourceTree = "<group>"; };
+		A995BC67256EE73800BBABB2 /* LQDownloadManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LQDownloadManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A92D567BC4794C20FE0F253C /* Pods_LQDownload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,8 +42,6 @@
 			children = (
 				1B617DFF1E1FF1E8000E2101 /* LQDownload */,
 				1B617DFE1E1FF1E8000E2101 /* Products */,
-				269FA23D2EB396AC4F3B1B35 /* Pods */,
-				594A9D81707F0FA4EF4640A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,25 +62,9 @@
 				1B617E071E1FF1E8000E2101 /* Assets.xcassets */,
 				1B617E091E1FF1E8000E2101 /* LaunchScreen.storyboard */,
 				1B617E0C1E1FF1E8000E2101 /* Info.plist */,
+				A995BC67256EE73800BBABB2 /* LQDownloadManager.swift */,
 			);
 			path = LQDownload;
-			sourceTree = "<group>";
-		};
-		269FA23D2EB396AC4F3B1B35 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */,
-				BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		594A9D81707F0FA4EF4640A8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,11 +74,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B617E0F1E1FF1E8000E2101 /* Build configuration list for PBXNativeTarget "LQDownload" */;
 			buildPhases = (
-				E4F78DFB7C6EF6684D403FF2 /* [CP] Check Pods Manifest.lock */,
 				1B617DF91E1FF1E8000E2101 /* Sources */,
 				1B617DFA1E1FF1E8000E2101 /* Frameworks */,
 				1B617DFB1E1FF1E8000E2101 /* Resources */,
-				3DBB37F61D1DC8ACD51CAD09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,48 +135,6 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		3DBB37F61D1DC8ACD51CAD09 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E4F78DFB7C6EF6684D403FF2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LQDownload-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		1B617DF91E1FF1E8000E2101 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,6 +142,7 @@
 			files = (
 				1B617E031E1FF1E8000E2101 /* ViewController.swift in Sources */,
 				1B617E011E1FF1E8000E2101 /* AppDelegate.swift in Sources */,
+				A995BC68256EE73800BBABB2 /* LQDownloadManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +284,6 @@
 		};
 		1B617E101E1FF1E8000E2101 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK7WL92UD9;
@@ -366,7 +301,6 @@
 		};
 		1B617E111E1FF1E8000E2101 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TK7WL92UD9;
