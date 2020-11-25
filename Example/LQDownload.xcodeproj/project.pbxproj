@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,10 +12,12 @@
 		1B617E061E1FF1E8000E2101 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E041E1FF1E8000E2101 /* Main.storyboard */; };
 		1B617E081E1FF1E8000E2101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E071E1FF1E8000E2101 /* Assets.xcassets */; };
 		1B617E0B1E1FF1E8000E2101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B617E091E1FF1E8000E2101 /* LaunchScreen.storyboard */; };
-		4C2670D09E55591538E7A678 /* Pods_LQDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F673B0EF0BAA953CEE81EBE /* Pods_LQDownload.framework */; };
+		A92D567BC4794C20FE0F253C /* Pods_LQDownload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.debug.xcconfig"; path = "Target Support Files/Pods-LQDownload/Pods-LQDownload.debug.xcconfig"; sourceTree = "<group>"; };
+		143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B617DFD1E1FF1E8000E2101 /* LQDownload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LQDownload.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B617E001E1FF1E8000E2101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B617E021E1FF1E8000E2101 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,9 +25,7 @@
 		1B617E071E1FF1E8000E2101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B617E0A1E1FF1E8000E2101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B617E0C1E1FF1E8000E2101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F673B0EF0BAA953CEE81EBE /* Pods_LQDownload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LQDownload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F1AA9DAF51405EC128EC1B1 /* Pods-LQDownload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LQDownload/Pods-LQDownload.debug.xcconfig"; sourceTree = "<group>"; };
-		CEA395286797734D1DC5D8E7 /* Pods-LQDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.release.xcconfig"; path = "Pods/Target Support Files/Pods-LQDownload/Pods-LQDownload.release.xcconfig"; sourceTree = "<group>"; };
+		BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LQDownload.release.xcconfig"; path = "Target Support Files/Pods-LQDownload/Pods-LQDownload.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,28 +33,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2670D09E55591538E7A678 /* Pods_LQDownload.framework in Frameworks */,
+				A92D567BC4794C20FE0F253C /* Pods_LQDownload.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06491ADF667087312A2C6D81 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1F673B0EF0BAA953CEE81EBE /* Pods_LQDownload.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1B617DF41E1FF1E8000E2101 = {
 			isa = PBXGroup;
 			children = (
 				1B617DFF1E1FF1E8000E2101 /* LQDownload */,
 				1B617DFE1E1FF1E8000E2101 /* Products */,
-				BC18D4C9BFEC86F6BCE79292 /* Pods */,
-				06491ADF667087312A2C6D81 /* Frameworks */,
+				269FA23D2EB396AC4F3B1B35 /* Pods */,
+				594A9D81707F0FA4EF4640A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,13 +71,21 @@
 			path = LQDownload;
 			sourceTree = "<group>";
 		};
-		BC18D4C9BFEC86F6BCE79292 /* Pods */ = {
+		269FA23D2EB396AC4F3B1B35 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F1AA9DAF51405EC128EC1B1 /* Pods-LQDownload.debug.xcconfig */,
-				CEA395286797734D1DC5D8E7 /* Pods-LQDownload.release.xcconfig */,
+				12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */,
+				BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		594A9D81707F0FA4EF4640A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				143C92E47F6CA942A33211A7 /* Pods_LQDownload.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,12 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B617E0F1E1FF1E8000E2101 /* Build configuration list for PBXNativeTarget "LQDownload" */;
 			buildPhases = (
-				C9E0B6FD3175D693257198DC /* [CP] Check Pods Manifest.lock */,
+				E4F78DFB7C6EF6684D403FF2 /* [CP] Check Pods Manifest.lock */,
 				1B617DF91E1FF1E8000E2101 /* Sources */,
 				1B617DFA1E1FF1E8000E2101 /* Frameworks */,
 				1B617DFB1E1FF1E8000E2101 /* Resources */,
-				07AAE99F8ACCE7B7D4E154E0 /* [CP] Embed Pods Frameworks */,
-				C56AD65EA1A7E58B9AF13ED5 /* [CP] Copy Pods Resources */,
+				3DBB37F61D1DC8ACD51CAD09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -118,19 +117,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "杨卢青";
 				TargetAttributes = {
 					1B617DFC1E1FF1E8000E2101 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = SPXQYPSCZ5;
+						LastSwiftMigration = 1220;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = 1B617DF81E1FF1E8000E2101 /* Build configuration list for PBXProject "LQDownload" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -160,55 +159,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07AAE99F8ACCE7B7D4E154E0 /* [CP] Embed Pods Frameworks */ = {
+		3DBB37F61D1DC8ACD51CAD09 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LQDownloadManager/LQDownloadManager.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LQDownloadManager.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LQDownload/Pods-LQDownload-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C56AD65EA1A7E58B9AF13ED5 /* [CP] Copy Pods Resources */ = {
+		E4F78DFB7C6EF6684D403FF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LQDownload/Pods-LQDownload-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C9E0B6FD3175D693257198DC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-LQDownload-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -249,20 +236,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -285,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -299,20 +296,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -329,10 +336,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -340,31 +348,37 @@
 		};
 		1B617E101E1FF1E8000E2101 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F1AA9DAF51405EC128EC1B1 /* Pods-LQDownload.debug.xcconfig */;
+			baseConfigurationReference = 12E9E32BC3C4B0057DED5D06 /* Pods-LQDownload.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SPXQYPSCZ5;
+				DEVELOPMENT_TEAM = TK7WL92UD9;
 				INFOPLIST_FILE = LQDownload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ylq.LQDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		1B617E111E1FF1E8000E2101 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEA395286797734D1DC5D8E7 /* Pods-LQDownload.release.xcconfig */;
+			baseConfigurationReference = BBDBCA5A649A07190AC8A932 /* Pods-LQDownload.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = SPXQYPSCZ5;
+				DEVELOPMENT_TEAM = TK7WL92UD9;
 				INFOPLIST_FILE = LQDownload/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ylq.LQDownload;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
