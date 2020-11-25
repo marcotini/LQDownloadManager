@@ -1,0 +1,16 @@
+PODS:
+  - LQDownloadManager (0.0.5)
+
+DEPENDENCIES:
+  - LQDownloadManager
+
+SPEC REPOS:
+  trunk:
+    - LQDownloadManager
+
+SPEC CHECKSUMS:
+  LQDownloadManager: 9661465965f1501ffd70128ac7885e2b99fe2dc8
+
+PODFILE CHECKSUM: c6f9865018ea33e7e0dc37b447f3e79e6256c809
+
+COCOAPODS: 1.10.0
